@@ -142,3 +142,4 @@ Args do Chromium: Desabilitam features que revelam automação (ex.: extensões,
 User-Agent e Headers: Fazem requests parecerem de um usuário real, passando por verificações de headers.
 Nota: Para funcionar completamente, resolva o desafio manualmente na primeira execução (com headless false). Após isso, a sessão persiste e o bypass se mantém.
 Isso é tudo o que foi usado no bypass.
+(https://img.shields.io/badge/Node.js-18+-green) (https://img.shields.io/badge/Node.js-18+-green)
