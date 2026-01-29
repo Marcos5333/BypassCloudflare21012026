@@ -32,22 +32,23 @@ Clone o repositório:
 
 bash
 
-Copy code
+Copy code >
 git clone https://github.com/Marcos5333/BypassCloudflare21012026.git
 cd BypassCloudflare21012026
 Instale as dependências:
 
 bash
 
-Copy code
+Copy code > 
 npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
 Uso
 Execute o script:
 
 bash
 
-Copy code
+Copy code > 
 node server.js
+
 Na primeira execução:
 
 O navegador abrirá (headless: false).
@@ -64,7 +65,8 @@ Copy code
 📊 Lives detectadas: 2
 2389676 { team1: 'Team A', team2: 'Team B', score1: '10', score2: '8', map: 'Dust2', time: '1:23', event: 'Major Event' }
 2389677 { team1: 'Team C', team2: 'Team D', score1: '5', score2: '12', map: 'Mirage', time: '0:45', event: 'Qualifier' }
-Como Funciona
+
+Como Funciona: 
 O bypass combina várias técnicas para confundir o Cloudflare:
 
 1. Plugin Stealth (Principal Ferramenta de Bypass)
@@ -198,9 +200,12 @@ Troubleshooting
 Timeout Erro: Aumente timeout em page.goto para 90000.
 Proxy: Adicione "--proxy-server=http://seu-proxy:port" nos args para rotacionar IPs.
 Sem Dados: Verifique seletores no código (ex.: .liveMatches) – o site pode ter mudado.
-Plugin Não Instala: Execute npm cache clean --force e reinstale.
+
+*Plugin Não Instala: Execute npm cache clean --force e reinstale.*
+
 Contribuição
-Contribuições são bem-vindas! Abra issues para bugs ou sugestões. Para PRs:
+Contribuições são bem-vindas! Abra issues para bugs ou sugestões.
+MVSTECHSOLUTION
 
 Este projeto está sob a licença MIT. Veja LICENSE para detalhes.
 
