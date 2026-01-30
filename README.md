@@ -41,12 +41,9 @@ bash
 
 Copy code > 
 npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
-Uso
+
 Execute o script:
 
-bash
-
-Copy code > 
 node server.js
 
 Na primeira execução:
