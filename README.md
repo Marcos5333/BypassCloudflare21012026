@@ -200,7 +200,6 @@ Sem Dados: Verifique seletores no código (ex.: .liveMatches) – o site pode te
 
 *Plugin Não Instala: Execute npm cache clean --force e reinstale.*
 
-Contribuição
 Contribuições são bem-vindas! Abra issues para bugs ou sugestões.
 MVSTECHSOLUTION
 
