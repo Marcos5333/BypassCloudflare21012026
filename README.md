@@ -32,14 +32,14 @@ Clone o repositório:
 
 bash
 
-Copy code >
+
 git clone https://github.com/Marcos5333/BypassCloudflare21012026.git
 cd BypassCloudflare21012026
 Instale as dependências:
 
 bash
 
-Copy code > 
+ 
 npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
 
 Execute o script:
@@ -55,7 +55,7 @@ O scraper rodará automaticamente, atualizando dados a cada 5 segundos.
 
 Exemplo de Output
 
-Copy code
+
 🔥 API HLTV RODANDO NA PORTA 3000 (MODO TURBO + CACHE + STEALTH APRIMORADO + SEM PAUSAS)
 🚀 Aba fixa criada /matches
 
@@ -76,7 +76,6 @@ Os argumentos do Chromium desabilitam features detectáveis (ex.: extensões, pl
 
 <img width="657" height="606" alt="image" src="https://github.com/user-attachments/assets/4f1f87b1-a7f4-456f-b4d1-93a7ca39dfa0" />
                
-Code completed \/
 
 async function initBrowser() {
     if (browser && pageLive) return;
